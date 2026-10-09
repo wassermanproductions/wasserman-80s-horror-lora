@@ -1,0 +1,20 @@
+Wasserman 80s Horror LoRA — an 80s / grindhouse horror style for MiniMax H3
+Copyright 2026 Sam Wasserman
+https://wassermanproductions.com · https://wasserman.ai
+
+This project was created by Sam Wasserman. If you use, fork, or
+redistribute it or derivative works, you must retain this NOTICE file and
+credit "Sam Wasserman (wassermanproductions.com)" in your documentation
+and any about/credits surface, per Section 4(d) of the Apache License 2.0.
+
+The workflows, installers, and documentation in this repository are
+licensed under the Apache License 2.0 (see LICENSE).
+
+The LoRA weights (80s_horror_wk.safetensors, distributed as a release
+asset) are a Model Derivative of MiniMax H3, modified by Sam Wasserman
+through LoRA fine-tuning, and are distributed under the MiniMax H3
+Community License Agreement (see LICENSE-MINIMAX-H3 and WEIGHTS_LICENSE.md).
+
+MiniMax H3 is licensed under the MiniMax H3 Community License Agreement, Copyright © 2026 MiniMax. All Rights Reserved.
+
+Powered by MiniMax H3.

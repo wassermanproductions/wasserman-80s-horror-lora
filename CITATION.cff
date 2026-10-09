@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use the Wasserman 80s Horror LoRA in your work, please credit Sam Wasserman (wassermanproductions.com), per the project's NOTICE and Section 4(d) of the Apache License 2.0."
+title: "Wasserman 80s Horror LoRA"
+abstract: "A style LoRA for the MiniMax H3 video model that gives any prompt the look of 1970s–80s horror: VHS and grindhouse 16mm texture, practical neon and tungsten light, period wardrobe and sets. Includes ready-to-run ComfyUI workflows, a prompt guide, and one-line installers."
+type: software
+authors:
+  - family-names: "Wasserman"
+    given-names: "Sam"
+    website: "https://wassermanproductions.com"
+version: "1.0.0"
+date-released: "2026-10-09"
+license: "Apache-2.0"
+url: "https://github.com/wassermanproductions/wasserman-80s-horror-lora"
+repository-code: "https://github.com/wassermanproductions/wasserman-80s-horror-lora"
+keywords:
+  - filmmaking
+  - ai-video
+  - lora
+  - minimax-h3
+  - comfyui
+  - horror
+  - vhs
+  - generative-video
