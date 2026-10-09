@@ -30,8 +30,8 @@ This is a style LoRA for **MiniMax H3**, the open video-and-audio model. Put `80
 
 <table>
 <tr>
-<td width="50%" align="center"><img src="docs/images/results/16mm_lora_1344x768.gif" alt="16mm, 1344×768" /><br><sub><code>shot on 16mm film.</code> · 1344×768</sub></td>
-<td width="50%" align="center"><img src="docs/images/results/vhs_lora_1.0.gif" alt="VHS, 1280×704" /><br><sub><code>shot on VHS.</code> · 1280×704</sub></td>
+<td width="50%" align="center"><img src="docs/images/results/16mm-1344x768.gif" alt="16mm, 1344×768" /><br><sub><code>shot on 16mm film.</code> · 1344×768</sub></td>
+<td width="50%" align="center"><img src="docs/images/results/vhs-1280x704.gif" alt="VHS, 1280×704" /><br><sub><code>shot on VHS.</code> · 1280×704</sub></td>
 </tr>
 </table>
 
@@ -39,14 +39,14 @@ This is a style LoRA for **MiniMax H3**, the open video-and-audio model. Put `80
 
 | MiniMax H3 | + 80s Horror LoRA |
 |---|---|
-| ![](docs/images/results/16mm_base.jpg) | ![](docs/images/results/16mm_lora_1.0.jpg) |
-| ![](docs/images/results/vhs_base.jpg) | ![](docs/images/results/vhs_lora_1.0.jpg) |
+| ![](docs/images/results/16mm-h3.jpg) | ![](docs/images/results/16mm-lora.jpg) |
+| ![](docs/images/results/vhs-h3.jpg) | ![](docs/images/results/vhs-lora.jpg) |
 
-**Works with either H3 text encoder.** With the LoRA on, the standard encoder (`qwen3vl_32b_minimax_h3_nvfp4_awq`) gives nearly the same shot as community fine-tuned encoders. **Image to video** keeps your start frame and pushes the action, wardrobe and set dressing toward the era.
+**Works with the standard H3 text encoder** (`qwen3vl_32b_minimax_h3_nvfp4_awq`), the one the installer sets up. **Image to video** keeps your start frame and pushes the action, wardrobe and set dressing toward the era.
 
-| Standard text encoder + LoRA | Image to video + LoRA |
+| Standard H3 setup + LoRA | Image to video + LoRA |
 |---|---|
-| ![](docs/images/results/vhs_stockTE_lora.jpg) | ![](docs/images/results/i2v_lora_1.0.jpg) |
+| ![](docs/images/results/standard-encoder.jpg) | ![](docs/images/results/i2v-lora.jpg) |
 
 ## Install (ComfyUI)
 
@@ -99,7 +99,7 @@ Requires a ComfyUI version with MiniMax H3 support.
 3. Describe the light, the place, what happens, the camera and the sound. Then queue it.
 
 ```
-80s_horror_wk, shot on VHS. Cold fluorescent mall light, dead shopping mall after hours.
+80s_horror_wk, shot on VHS. Cold fluorescent mall light, empty shopping mall after hours.
 A mannequin in a prom dress stands in a fountain; its head follows a passing security
 guard's flashlight, then it steps off the pedestal and walks stiffly toward camera.
 Tracking shot retreating from the mannequin. No spoken words.
@@ -118,12 +118,12 @@ See the **[prompt guide](PROMPTS.md)** for the formula, dialogue tips, and a set
 
 ## What it learned from
 
-48 eight-second horror shots made by Sam Wasserman: 24 in the VHS look and 24 in the grindhouse 16mm look. They cover dead malls, roller rinks, drive-ins, farmhouse suppers, sleepovers, barbershops and boardwalk arcades. Every shot was trained with its own audio.
+48 eight-second horror shots made by Sam Wasserman: 24 in the VHS look and 24 in the grindhouse 16mm look. They cover empty malls, roller rinks, drive-ins, farmhouse suppers, sleepovers, barbershops and boardwalk arcades. Every shot was trained with its own audio.
 
 | | | |
 |---|---|---|
-| ![](docs/images/training/80s_02_mall_mannequin.jpg) | ![](docs/images/training/camp_01_clown_blood_balloon.jpg) | ![](docs/images/training/night_02_rink_disco_scalp.jpg) |
-| ![](docs/images/training/camp_06_seamstress_cheek_stitch.jpg) | ![](docs/images/training/cornfield_behead_continuation.jpg) | ![](docs/images/training/camp_05_drivein_skull_crush.jpg) |
+| ![](docs/images/training/mall.jpg) | ![](docs/images/training/party-clown.jpg) | ![](docs/images/training/roller-rink.jpg) |
+| ![](docs/images/training/sewing-room.jpg) | ![](docs/images/training/cornfield.jpg) | ![](docs/images/training/drive-in.jpg) |
 
 ## Part of Wasserman's Filmmaker Suite
 
