@@ -35,15 +35,15 @@ This is a style LoRA for **MiniMax H3**, the open video-and-audio model. Put `80
 </tr>
 <tr>
 <td width="50%" align="center"><img src="docs/images/clips/redo_arcade_eaten_by_screen_kid.gif" alt="Boardwalk arcade" /><br><sub>Boardwalk arcade</sub></td>
-<td width="50%" align="center"><img src="docs/images/clips/camp_08_barbershop_mirror.gif" alt="Barbershop mirror" /><br><sub>Barbershop mirror</sub></td>
+<td width="50%" align="center"><img src="docs/images/clips/eighties_street_fog_8s.gif" alt="Fog on Elm Street" /><br><sub>Fog on Elm Street</sub></td>
 </tr>
 <tr>
-<td width="50%" align="center"><img src="docs/images/clips/redo_optometrist_eyeballs_in_mouth.gif" alt="The optometrist" /><br><sub>The optometrist</sub></td>
-<td width="50%" align="center"><img src="docs/images/clips/night_06_waterpark_water_woman.gif" alt="Waterpark after dark" /><br><sub>Waterpark after dark</sub></td>
+<td width="50%" align="center"><img src="docs/images/clips/camp_01_clown_blood_balloon.gif" alt="Party clown" /><br><sub>Party clown</sub></td>
+<td width="50%" align="center"><img src="docs/images/clips/wild_01_doll_birthday.gif" alt="Doll birthday" /><br><sub>Doll birthday</sub></td>
 </tr>
 <tr>
 <td width="50%" align="center"><img src="docs/images/clips/camp_06_seamstress_cheek_stitch.gif" alt="The seamstress" /><br><sub>The seamstress</sub></td>
-<td width="50%" align="center"><img src="docs/images/clips/redo_quarry_moonlit_monstrosity.gif" alt="Quarry lake" /><br><sub>Quarry lake</sub></td>
+<td width="50%" align="center"><img src="docs/images/clips/camp_05_drivein_skull_crush.gif" alt="Drive-in" /><br><sub>Drive-in</sub></td>
 </tr>
 </table>
 
