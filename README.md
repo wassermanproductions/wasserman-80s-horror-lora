@@ -33,14 +33,19 @@ This is a style LoRA for **MiniMax H3**, the open video-and-audio model. Put `80
 <td width="50%" align="center"><img src="docs/images/results/16mm_lora_1344x768.gif" alt="16mm, 1344×768" /><br><sub><code>shot on 16mm film.</code> · 1344×768</sub></td>
 <td width="50%" align="center"><img src="docs/images/results/vhs_lora_1.0.gif" alt="VHS, 1280×704" /><br><sub><code>shot on VHS.</code> · 1280×704</sub></td>
 </tr>
+<tr>
+<td width="50%" align="center"><img src="docs/images/clips/redo_arcade_eaten_by_screen_kid.gif" alt="Boardwalk arcade" /><br><sub>Boardwalk arcade</sub></td>
+<td width="50%" align="center"><img src="docs/images/clips/camp_08_barbershop_mirror.gif" alt="Barbershop mirror" /><br><sub>Barbershop mirror</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="docs/images/clips/redo_optometrist_eyeballs_in_mouth.gif" alt="The optometrist" /><br><sub>The optometrist</sub></td>
+<td width="50%" align="center"><img src="docs/images/clips/night_06_waterpark_water_woman.gif" alt="Waterpark after dark" /><br><sub>Waterpark after dark</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="docs/images/clips/camp_06_seamstress_cheek_stitch.gif" alt="The seamstress" /><br><sub>The seamstress</sub></td>
+<td width="50%" align="center"><img src="docs/images/clips/redo_quarry_moonlit_monstrosity.gif" alt="Quarry lake" /><br><sub>Quarry lake</sub></td>
+</tr>
 </table>
-
-**H3 alone vs. with the LoRA:** same prompt, same seed, same settings.
-
-| MiniMax H3 | + 80s Horror LoRA |
-|---|---|
-| ![](docs/images/results/16mm_base.jpg) | ![](docs/images/results/16mm_lora_1.0.jpg) |
-| ![](docs/images/results/vhs_base.jpg) | ![](docs/images/results/vhs_lora_1.0.jpg) |
 
 **Works with standard or uncensored H3.** The LoRA runs on the standard H3 text encoder (`qwen3vl_32b_minimax_h3_nvfp4_awq`, the one the installer sets up) or on an uncensored H3 text encoder. Both give the 80s look; it was trained with an uncensored encoder, so that's where it can work best, especially on darker horror prompts. **Image to video** keeps your start frame and pushes the action, wardrobe and set dressing toward the era.
 
